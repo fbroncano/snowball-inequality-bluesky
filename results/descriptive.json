@@ -1,0 +1,17 @@
+{
+  "n_unique_nodes": 16579,
+  "followers": {
+    "median": 2676.0,
+    "mean": 20913.0,
+    "p90": 40489.80000000002,
+    "max": 34852306.0
+  },
+  "posts": {
+    "median": 488.0,
+    "mean": 3603.0
+  },
+  "account_age_days": {
+    "median": 739.0,
+    "mean": 833.5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "params": {
+    "pop": 50000,
+    "N": 3000,
+    "K": 1000,
+    "seeds": 10,
+    "reps": 5
+  },
+  "empirical_subgraph_gini": 0.589,
+  "models": {
+    "scale_free": {
+      "population_gini": 0.9514,
+      "sampled_subgraph_gini_mean": 0.6387,
+      "sampled_subgraph_gini_sd": 0.0004,
+      "inflation": -0.3127,
+      "sub_nodes_mean": 3000,
+      "sub_edges_mean": 10245
+    },
+    "er": {
+      "population_gini": 0.145,
+      "sampled_subgraph_gini_mean": 0.2605,
+      "sampled_subgraph_gini_sd": 0.003,
+      "inflation": 0.1155,
+      "sub_nodes_mean": 3000,
+      "sub_edges_mean": 5596
+    }
+  },
+  "verdict": "WARNING: empirical ~ sampled-PA -> the excess may be a sampling artefact"
+}

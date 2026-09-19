@@ -1,0 +1,33 @@
+{
+  "B3_prescribed_vs_realized": {
+    "prescribed_gini": 0.6763,
+    "realized_gini": 0.6733,
+    "prescribed_max": 4242,
+    "realized_max": 3384
+  },
+  "B2_outdegree_sensitivity": {
+    "permutation_of_in": {
+      "true": 0.6734,
+      "sampled": 0.5377,
+      "sd": 0.0044
+    },
+    "independent_poisson": {
+      "true": 0.6758,
+      "sampled": 0.545,
+      "sd": 0.003
+    },
+    "independent_lognormal": {
+      "true": 0.6739,
+      "sampled": 0.5398,
+      "sd": 0.002
+    }
+  },
+  "A4_tail_fit_followers": {
+    "n": 16298,
+    "alpha": 2.016,
+    "xmin": 19442.0,
+    "powerlaw_vs_lognormal_R": -3.691,
+    "p": 0.0002,
+    "verdict": "lognormal preferred"
+  }
+}

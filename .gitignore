@@ -1,0 +1,21 @@
+# --- Python ---
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- macOS ---
+.DS_Store
+
+# --- Logs and run byproducts ---
+*.log
+
+# --- Individual-level data: NOT redistributed. See "What is not redistributed" in README. ---
+# Only aggregated JSON summaries, figures and identifier-free counter arrays are released.
+data/
+*.parquet
+runs/
+
+.zenodo.json
+CITATION.cff

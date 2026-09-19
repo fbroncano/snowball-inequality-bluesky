@@ -1,0 +1,53 @@
+{
+  "collected_at": "2026-09-10T21:30:27.564159+00:00",
+  "census_size": 19952290,
+  "requested": 100000,
+  "resolved": 99651,
+  "resolution_rate": 0.9965,
+  "gini_followers_all": 0.9261,
+  "gini_followers_all_ci95": [
+    0.9207,
+    0.9312
+  ],
+  "top1_share_all": 0.5729,
+  "top1_share_all_ci95": [
+    0.5417,
+    0.6034
+  ],
+  "gini_posts": 0.9589,
+  "gini_posts_ci95": [
+    0.9568,
+    0.9611
+  ],
+  "median_followers": 6.0,
+  "max_followers": 277947.0,
+  "pct_zero_followers": 0.2396,
+  "gini_followers_active": 0.8792,
+  "gini_followers_active_ci95": [
+    0.8707,
+    0.8879
+  ],
+  "n_active": 43042,
+  "convergence": [
+    {
+      "n": 1000,
+      "gini_mean": 0.9117,
+      "gini_sd": 0.0192
+    },
+    {
+      "n": 3000,
+      "gini_mean": 0.9234,
+      "gini_sd": 0.01
+    },
+    {
+      "n": 10000,
+      "gini_mean": 0.9269,
+      "gini_sd": 0.006
+    },
+    {
+      "n": 30000,
+      "gini_mean": 0.9267,
+      "gini_sd": 0.004
+    }
+  ]
+}

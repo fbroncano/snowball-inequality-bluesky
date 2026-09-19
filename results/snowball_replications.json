@@ -1,0 +1,121 @@
+{
+  "description": "Aggregate of the five snowball replications collected from Bluesky on 10 September 2026. Derived from runs/, which is not published because it carries per-replication metadata identifying the accounts collected. Contains no identifiers. These are the snowball rows of Table 4 and the sizes of Table 5.",
+  "collected_at": "2026-09-10",
+  "n_replications": 5,
+  "params": {
+    "runs": 5,
+    "n": 3000,
+    "depth": 4,
+    "k": 1000,
+    "seeds_per_run": 10,
+    "scan": 3000,
+    "workers": 16,
+    "out": "runs"
+  },
+  "per_replication": [
+    {
+      "run": 0,
+      "N": 3170,
+      "m_internal_edges": 144699
+    },
+    {
+      "run": 1,
+      "N": 3331,
+      "m_internal_edges": 145590
+    },
+    {
+      "run": 2,
+      "N": 3772,
+      "m_internal_edges": 140709
+    },
+    {
+      "run": 3,
+      "N": 3157,
+      "m_internal_edges": 159490
+    },
+    {
+      "run": 4,
+      "N": 3904,
+      "m_internal_edges": 173024
+    }
+  ],
+  "metrics": {
+    "gini_in_degree_subgraph": {
+      "mean": 0.6164,
+      "sd": 0.0511,
+      "values": [
+        0.6204,
+        0.6519,
+        0.6897,
+        0.5633,
+        0.5566
+      ]
+    },
+    "gini_pagerank_subgraph": {
+      "mean": 0.5673,
+      "sd": 0.048,
+      "values": [
+        0.5508,
+        0.6262,
+        0.6206,
+        0.5064,
+        0.5323
+      ]
+    },
+    "gini_followers_node_set": {
+      "mean": 0.8782,
+      "sd": 0.0509,
+      "values": [
+        0.8137,
+        0.9248,
+        0.948,
+        0.8378,
+        0.8666
+      ]
+    },
+    "gini_posts_node_set": {
+      "mean": 0.7919,
+      "sd": 0.0664,
+      "values": [
+        0.7591,
+        0.8658,
+        0.8622,
+        0.6895,
+        0.7831
+      ]
+    },
+    "attention_top1pct_subgraph": {
+      "mean": 0.0895,
+      "sd": 0.0082,
+      "values": [
+        0.0925,
+        0.1004,
+        0.0931,
+        0.0761,
+        0.0852
+      ]
+    },
+    "pagerank_top1pct_subgraph": {
+      "mean": 0.1662,
+      "sd": 0.0636,
+      "values": [
+        0.0999,
+        0.202,
+        0.2716,
+        0.1109,
+        0.1467
+      ]
+    },
+    "spearman_posts_vs_indegree": {
+      "mean": 0.4036,
+      "sd": 0.1258,
+      "values": [
+        0.3461,
+        0.5817,
+        0.5247,
+        0.2933,
+        0.272
+      ]
+    }
+  }
+}

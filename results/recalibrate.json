@@ -1,0 +1,70 @@
+{
+  "f_dependence": [
+    {
+      "pop": 20000,
+      "f": 0.15,
+      "true": 0.6638,
+      "sampled": 0.5375,
+      "sd": 0.0026
+    },
+    {
+      "pop": 40000,
+      "f": 0.075,
+      "true": 0.6737,
+      "sampled": 0.5405,
+      "sd": 0.0036
+    },
+    {
+      "pop": 80000,
+      "f": 0.0375,
+      "true": 0.6736,
+      "sampled": 0.5012,
+      "sd": 0.0074
+    },
+    {
+      "pop": 160000,
+      "f": 0.01875,
+      "true": 0.6725,
+      "sampled": 0.4449,
+      "sd": 0.0056
+    },
+    {
+      "pop": 320000,
+      "f": 0.009375,
+      "true": 0.6719,
+      "sampled": 0.35,
+      "sd": 0.0032
+    }
+  ],
+  "scale_invariance": [
+    {
+      "N": 1500,
+      "pop": 30000,
+      "f": 0.05,
+      "sampled": 0.5138,
+      "sd": 0.0035
+    },
+    {
+      "N": 3000,
+      "pop": 60000,
+      "f": 0.05,
+      "sampled": 0.5294,
+      "sd": 0.0036
+    },
+    {
+      "N": 6000,
+      "pop": 120000,
+      "f": 0.05,
+      "sampled": 0.518,
+      "sd": 0.0032
+    }
+  ],
+  "extrapolation": {
+    "fit_slope_per_decade": 0.1563,
+    "fit_intercept": 0.6977,
+    "true_gini_of_this_population": 0.6638,
+    "bluesky_f_estimate": 8.918918918918919e-05,
+    "predicted_sampled_gini_at_bluesky_f_if_true_is_0.66": 0.0647,
+    "interpretation": "at the real f the same truth 0.66 would measure lower still; the observed 0.62 therefore implies a true Gini HIGHER than the one estimated at f=7.5%"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source": "andrewconner/bluesky_profiles (2023-04-23 snapshot)",
+  "true_population": {
+    "n": 35485,
+    "m": 2100011,
+    "mean_degree": 59.2,
+    "gini_indegree": 0.5037,
+    "top1": 0.1598
+  },
+  "sampled_by_fraction": [
+    {
+      "N": 1000,
+      "f": 0.0282,
+      "sampled_gini": 0.4209,
+      "sd": 0.0383,
+      "bias": -0.0828
+    },
+    {
+      "N": 2000,
+      "f": 0.0564,
+      "sampled_gini": 0.4779,
+      "sd": 0.1075,
+      "bias": -0.0258
+    },
+    {
+      "N": 3000,
+      "f": 0.0845,
+      "sampled_gini": 0.4472,
+      "sd": 0.0336,
+      "bias": -0.0565
+    },
+    {
+      "N": 6000,
+      "f": 0.1691,
+      "sampled_gini": 0.4898,
+      "sd": 0.0108,
+      "bias": -0.0139
+    },
+    {
+      "N": 12000,
+      "f": 0.3382,
+      "sampled_gini": 0.4766,
+      "sd": 0.0194,
+      "bias": -0.0271
+    },
+    {
+      "N": 24000,
+      "f": 0.6763,
+      "sampled_gini": 0.4989,
+      "sd": 0.0027,
+      "bias": -0.0048
+    }
+  ]
+}

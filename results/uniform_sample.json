@@ -1,0 +1,203 @@
+{
+  "collected_at": "2026-09-10T10:43:33.341117+00:00",
+  "census_size": 19952290,
+  "active_only": false,
+  "n_per_sample": 5000,
+  "n_reps": 5,
+  "gini_followers_all": {
+    "mean": 0.9259,
+    "sd": 0.0122,
+    "values": [
+      0.9211,
+      0.9165,
+      0.9142,
+      0.9402,
+      0.9377
+    ]
+  },
+  "gini_followers_active": {
+    "mean": 0.8799,
+    "sd": 0.0196,
+    "values": [
+      0.8748,
+      0.864,
+      0.8598,
+      0.9027,
+      0.8983
+    ]
+  },
+  "gini_posts": {
+    "mean": 0.9615,
+    "sd": 0.0056,
+    "values": [
+      0.9598,
+      0.9706,
+      0.9598,
+      0.9554,
+      0.9619
+    ]
+  },
+  "top1_share_all": {
+    "mean": 0.5701,
+    "sd": 0.0641,
+    "values": [
+      0.5704,
+      0.5053,
+      0.5066,
+      0.6385,
+      0.6295
+    ]
+  },
+  "top1_share_active": {
+    "mean": 0.4556,
+    "sd": 0.0795,
+    "values": [
+      0.4554,
+      0.3707,
+      0.3852,
+      0.5108,
+      0.5561
+    ]
+  },
+  "median_followers_active": {
+    "mean": 29.0,
+    "sd": 0.7071,
+    "values": [
+      28.0,
+      29.0,
+      30.0,
+      29.0,
+      29.0
+    ]
+  },
+  "resolution_rate": {
+    "mean": 0.9964,
+    "sd": 0.0008,
+    "values": [
+      0.9964,
+      0.9956,
+      0.9974,
+      0.997,
+      0.9956
+    ]
+  },
+  "pct_zero_followers": {
+    "mean": 0.2371,
+    "sd": 0.0048,
+    "values": [
+      0.2344,
+      0.2314,
+      0.2428,
+      0.2411,
+      0.2356
+    ]
+  },
+  "pct_under_1000": {
+    "mean": 0.9789,
+    "sd": 0.0021,
+    "values": [
+      0.9823,
+      0.9785,
+      0.9789,
+      0.9769,
+      0.9777
+    ]
+  },
+  "per_rep": [
+    {
+      "requested": 5000,
+      "resolved": 4982,
+      "resolution_rate": 0.9964,
+      "gini_followers_all": 0.9211,
+      "gini_followers_active": 0.8748,
+      "n_active": 2180,
+      "top1_share_all": 0.5704,
+      "top1_share_active": 0.4554,
+      "median_followers_active": 28.0,
+      "mean_followers_active": 276.9,
+      "gini_posts": 0.9598,
+      "median_followers": 6.0,
+      "mean_followers": 127.4,
+      "max_followers": 54228.0,
+      "pct_zero_followers": 0.2344,
+      "pct_under_1000": 0.9823,
+      "rep": 0
+    },
+    {
+      "requested": 5000,
+      "resolved": 4978,
+      "resolution_rate": 0.9956,
+      "gini_followers_all": 0.9165,
+      "gini_followers_active": 0.864,
+      "n_active": 2152,
+      "top1_share_all": 0.5053,
+      "top1_share_active": 0.3707,
+      "median_followers_active": 29.0,
+      "mean_followers_active": 263.5,
+      "gini_posts": 0.9706,
+      "median_followers": 6.0,
+      "mean_followers": 121.3,
+      "max_followers": 18473.0,
+      "pct_zero_followers": 0.2314,
+      "pct_under_1000": 0.9785,
+      "rep": 1
+    },
+    {
+      "requested": 5000,
+      "resolved": 4987,
+      "resolution_rate": 0.9974,
+      "gini_followers_all": 0.9142,
+      "gini_followers_active": 0.8598,
+      "n_active": 2160,
+      "top1_share_all": 0.5066,
+      "top1_share_active": 0.3852,
+      "median_followers_active": 30.0,
+      "mean_followers_active": 268.1,
+      "gini_posts": 0.9598,
+      "median_followers": 6.0,
+      "mean_followers": 122.5,
+      "max_followers": 29470.0,
+      "pct_zero_followers": 0.2428,
+      "pct_under_1000": 0.9789,
+      "rep": 2
+    },
+    {
+      "requested": 5000,
+      "resolved": 4985,
+      "resolution_rate": 0.997,
+      "gini_followers_all": 0.9402,
+      "gini_followers_active": 0.9027,
+      "n_active": 2137,
+      "top1_share_all": 0.6385,
+      "top1_share_active": 0.5108,
+      "median_followers_active": 29.0,
+      "mean_followers_active": 402.5,
+      "gini_posts": 0.9554,
+      "median_followers": 6.0,
+      "mean_followers": 179.1,
+      "max_followers": 99787.0,
+      "pct_zero_followers": 0.2411,
+      "pct_under_1000": 0.9769,
+      "rep": 3
+    },
+    {
+      "requested": 5000,
+      "resolved": 4978,
+      "resolution_rate": 0.9956,
+      "gini_followers_all": 0.9377,
+      "gini_followers_active": 0.8983,
+      "n_active": 2118,
+      "top1_share_all": 0.6295,
+      "top1_share_active": 0.5561,
+      "median_followers_active": 29.0,
+      "mean_followers_active": 352.2,
+      "gini_posts": 0.9619,
+      "median_followers": 6.0,
+      "mean_followers": 155.8,
+      "max_followers": 217708.0,
+      "pct_zero_followers": 0.2356,
+      "pct_under_1000": 0.9777,
+      "rep": 4
+    }
+  ]
+}

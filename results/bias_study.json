@@ -1,0 +1,67 @@
+{
+  "params": {
+    "pop": 40000,
+    "N": 3000,
+    "K": 1000,
+    "seeds": 10,
+    "reps": 4
+  },
+  "empirical_sampled_gini": 0.616,
+  "points": [
+    {
+      "model": "lognormal_s0.2",
+      "true": 0.1129,
+      "sampled": 0.2617,
+      "sd": 0.0021
+    },
+    {
+      "model": "lognormal_s0.5",
+      "true": 0.2778,
+      "sampled": 0.2978,
+      "sd": 0.0028
+    },
+    {
+      "model": "lognormal_s0.8",
+      "true": 0.4307,
+      "sampled": 0.371,
+      "sd": 0.0031
+    },
+    {
+      "model": "lognormal_s1.1",
+      "true": 0.5596,
+      "sampled": 0.4498,
+      "sd": 0.0059
+    },
+    {
+      "model": "lognormal_s1.4",
+      "true": 0.6679,
+      "sampled": 0.5328,
+      "sd": 0.0044
+    },
+    {
+      "model": "lognormal_s1.7",
+      "true": 0.7523,
+      "sampled": 0.5885,
+      "sd": 0.0033
+    },
+    {
+      "model": "lognormal_s2.0",
+      "true": 0.8097,
+      "sampled": 0.6317,
+      "sd": 0.0073
+    },
+    {
+      "model": "er",
+      "true": 0.1453,
+      "sampled": 0.2648,
+      "sd": 0.0009
+    },
+    {
+      "model": "scale_free",
+      "true": 0.9512,
+      "sampled": 0.6332,
+      "sd": 0.0011
+    }
+  ],
+  "true_gini_consistent_with_empirical": 0.789
+}
